@@ -1,0 +1,26 @@
+-
+  name: 请求城池7信息
+  request:
+    method: post
+    url:  http://lyjxydcsf2.hnyoulu.com/cmd_t.php?tpass=abcddd123&
+    data: {"hd1051":{"showCity":{"city":7,"kind":1}}}
+    headers : {'content-type': "application/json"}
+  validate: None
+
+-
+  name: 请求城池8信息
+  request:
+    method: post
+    url:  http://lyjxydcsf2.hnyoulu.com/cmd_t.php?tpass=abcddd123&
+    data: {"hd1051":{"showCity":{"city":8,"kind":1}}}
+    headers : {'content-type': "application/json"}
+  validate: None
+
+-
+  name: 请求城池9信息-封装请求类
+  request:
+    method: post
+    url:  http://lyjxydcsf2.hnyoulu.com/cmd_t.php?tpass=abcddd123&
+    data: {"hd1051":{"showCity":{"city":8,"kind":1}}}
+    headers : {'content-type': "application/json"}
+  validate: None

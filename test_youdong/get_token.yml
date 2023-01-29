@@ -1,0 +1,17 @@
+-
+  name: 获得统一的鉴权码token-1
+  request:
+    method: post
+    url:  http://lyjxydcsf2.hnyoulu.com/cmd_t.php?tpass=abcddd123&sevid=1&uid=1000001
+    data: {"hd1051":{"showCity":{"city":7,"kind":1}}}
+    headers : {'content-type': "application/json"}
+  validate: None
+
+-
+  name: 获得统一的鉴权码token-2
+  request:
+    method: post
+    url:  http://lyjxydcsf2.hnyoulu.com/cmd_t.php?tpass=abcddd123&sevid=1&uid=1000002
+    data: {"hd1051":{"showCity":{"city":7,"kind":1}}}
+    headers : {'content-type': "application/json"}
+  validate: None

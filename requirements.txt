@@ -1,0 +1,12 @@
+pytest-html
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+allure-pytest
+yaml
+requests
+json
+time
+xlrd
+random
+unittest

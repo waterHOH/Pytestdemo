@@ -1,0 +1,10 @@
+[pytest]
+addopts = -vs --html=../report/report2.html --capture=sys
+testpaths = ./testcase
+python_files = test_*.py
+python_classes = Test*
+python_functions = test
+markers =
+     smoke1:e?????
+     usermanage:???????
+render_collapsed=True
